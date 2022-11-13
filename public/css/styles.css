@@ -1,0 +1,30 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+header{
+  margin-bottom: 30px;
+}
+.contenedorAutos{
+  display: flex;
+  flex-wrap: wrap;
+}
+.card{
+  background-color: rgb(228, 228, 228);
+  width: 150px;
+  height: 200px;
+  margin: 5px;
+  text-align: center;
+}
+.button{
+  width: 100%;
+}
+.btn-group-vertical{
+  width: 100%;
+}
+.comprar{
+  margin-top: 23px;
+  border-radius: 5px;
+  border: none;
+  background-color: rgb(255, 180, 81);
+}
