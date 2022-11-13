@@ -1,8 +1,8 @@
 const modelosAutos = [
     {
         id: 1,
-        modeloAuto: 'Tiggo 3',
-        tipoAuto: 'Suv',
+        modeloAuto: 'TIGGO 3',
+        tipoAuto: 'SUV',
         anioAuto: 2020,
         precioLista: 10990,
         precioAuto: 8990,
@@ -11,8 +11,8 @@ const modelosAutos = [
 
     {
         id: 2,
-        modeloAuto: 'Durango',
-        tipoAuto: 'Suv',
+        modeloAuto: 'DURANGO',
+        tipoAuto: 'SUV',
         anioAuto: 2020,
         precioLista: 20990,
         precioAuto: 16720,
@@ -21,8 +21,8 @@ const modelosAutos = [
 
     {
         id: 3,
-        modeloAuto: 'C5 Aircross',
-        tipoAuto: 'Suv',
+        modeloAuto: 'AIRCROSS',
+        tipoAuto: 'SUV',
         anioAuto: 2020,
         precioLista: 21200,
         precioAuto: 17200,
@@ -31,8 +31,8 @@ const modelosAutos = [
 
     {
         id: 4,
-        modeloAuto: 'Ridgeline',
-        tipoAuto: 'Camioneta',
+        modeloAuto: 'RIDGELINE',
+        tipoAuto: 'CAMIONETA',
         anioAuto: 2020,
         precioLista:15000,
         precioAuto: 9890,
@@ -41,8 +41,8 @@ const modelosAutos = [
 
     {
         id: 5,
-        modeloAuto: 'Wrangler',
-        tipoAuto: 'Camioneta',
+        modeloAuto: 'WRANGLER',
+        tipoAuto: 'CAMIONETA',
         anioAuto: 2020,
         precioAuto: 11990,
         precioLista:16990,
@@ -51,8 +51,8 @@ const modelosAutos = [
 
     {
         id: 6,
-        modeloAuto: 'Gladiator',
-        tipoAuto: 'Camioneta',
+        modeloAuto: 'GLADIATOR',
+        tipoAuto: 'CAMIONETA',
         anioAuto: 2019,
         precioLista:18990,
         precioAuto: 11990,
@@ -61,8 +61,8 @@ const modelosAutos = [
 
     {
         id: 7,
-        modeloAuto: 'C-elysee',
-        tipoAuto: 'Sedan',
+        modeloAuto: 'C-ELYSEE',
+        tipoAuto: 'SEDAN',
         anioAuto: 2021,
         precioLista: 10990,
         precioAuto: 8890,
@@ -71,8 +71,8 @@ const modelosAutos = [
 
     {
         id: 8,
-        modeloAuto: 'Cronos',
-        tipoAuto: 'Sedan',
+        modeloAuto: 'CRONOS',
+        tipoAuto: 'SEDAN',
         anioAuto: 2021,
         precioLista:12990,
         precioAuto: 9960,
@@ -81,8 +81,8 @@ const modelosAutos = [
 
     {
         id: 9,
-        modeloAuto: 'Accord',
-        tipoAuto: 'Sedan',
+        modeloAuto: 'ACCORD',
+        tipoAuto: 'SEDAN',
         anioAuto: 2022,
         precioLista: 12990,
         precioAuto: 10990,
@@ -90,8 +90,8 @@ const modelosAutos = [
     },
     {
         id: 10,
-        modeloAuto: 'Truck Dc',
-        tipoAuto: 'Camioneta',
+        modeloAuto: 'TRUCK DC',
+        tipoAuto: 'CAMIONETA',
         anioAuto: 2019,
         precioLista: 9151,
         precioAuto: 7842,
@@ -99,8 +99,8 @@ const modelosAutos = [
     },
     {
         id: 11,
-        modeloAuto: 'Vigus Plus',
-        tipoAuto: 'Camioneta',
+        modeloAuto: 'VIGUS PLUS',
+        tipoAuto: 'CAMIONETA',
         anioAuto: 2023,
         precioLista: 19504,
         precioAuto: 18314,
@@ -108,8 +108,8 @@ const modelosAutos = [
     },
     {
         id: 12,
-        modeloAuto: 'Tiggo 7 Pro',
-        tipoAuto: 'Suv',
+        modeloAuto: 'TIGGO 7',
+        tipoAuto: 'SUV',
         anioAuto: 2023,
         precioLista: 19990,
         precioAuto: 16490,
@@ -117,8 +117,8 @@ const modelosAutos = [
     },
     {
         id: 13,
-        modeloAuto: 'Corlay',
-        tipoAuto: 'Suv',
+        modeloAuto: 'CORLAY',
+        tipoAuto: 'SUV',
         anioAuto: 2021,
         precioLista: 16990,
         precioAuto: 14990,
@@ -126,8 +126,8 @@ const modelosAutos = [
     },
     {
         id: 14,
-        modeloAuto: 'Civic',
-        tipoAuto: 'Sedan',
+        modeloAuto: 'CIVIC',
+        tipoAuto: 'SEDAN',
         anioAuto: 2022,
         precioLista: 26390,
         precioAuto: 25490,
@@ -135,8 +135,8 @@ const modelosAutos = [
     },
     {
         id: 15,
-        modeloAuto: 'Cerato 5',
-        tipoAuto: 'Sedan',
+        modeloAuto: 'CERATO 5',
+        tipoAuto: 'SEDAN',
         anioAuto: 2022,
         precioLista: 23490,
         precioAuto: 22990,
@@ -144,8 +144,8 @@ const modelosAutos = [
     },
     {
         id: 16,
-        modeloAuto: 'New Mg3',
-        tipoAuto: 'Sedan',
+        modeloAuto: 'MG3',
+        tipoAuto: 'SEDAN',
         anioAuto: 2023,
         precioLista: 11390,
         precioAuto: 10890,
@@ -153,8 +153,8 @@ const modelosAutos = [
     },
     {
         id: 17,
-        modeloAuto: 'New Musso Grand',
-        tipoAuto: 'Camioneta',
+        modeloAuto: 'NEW MUSSO GRAND',
+        tipoAuto: 'CAMIONETA',
         anioAuto: 2021,
         precioLista: 23430,
         precioAuto: 22630,
@@ -162,8 +162,8 @@ const modelosAutos = [
     },
     {
         id: 18,
-        modeloAuto: 'Eclipse Cross',
-        tipoAuto: 'Suv',
+        modeloAuto: 'ECLIPSE CROSS',
+        tipoAuto: 'SUV',
         anioAuto: 2023,
         precioLista: 22990,
         precioAuto: 21990,
