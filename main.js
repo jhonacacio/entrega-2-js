@@ -21,7 +21,6 @@ ${nombres}`).toUpperCase();
 }
 const autoSeleccionado = modeloAutoDisponibles.find(autos => autos.modeloAuto === seleccion);
 alert(`Has seleccionado el modelo ${autoSeleccionado.modeloAuto} \nPrecio lista: ${autoSeleccionado.precioLista} $\nDesde: ${autoSeleccionado.precioAuto} $`)
-
 // Cantidad de cuotas y validacion
 function validarCantidadDeCuotas(cantidadDeCuotas) {
     while(cantidadDeCuotas < 1||cantidadDeCuotas > 12 || Number.isNaN(cantidadDeCuotas) ){
