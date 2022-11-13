@@ -1,11 +1,13 @@
+let cantidadDeCuotas = 0;
+let valorDeCuota = 0;
 let nombreAuto = prompt(`Que tipo de auto buscas? \nElige entre Camioneta, Sedan o Suv`)
-const modeloAuto = modelosAutos.filter(auto => auto.tipoAuto === nombreAuto);
+const modeloAutoDisponibles = modelosAutos.filter(auto => auto.tipoAuto === nombreAuto);
 
-modeloAuto.forEach((modelo)=> {
+modeloAutoDisponibles.forEach((modelo)=> {
     console.log(`disponible ${modelo.modeloAuto}`)
 })
-let seleccion = prompt('elige entre las opciones');
-const autoSeleccionado = modeloAuto.find(autos => autos.modeloAuto === seleccion);
+let seleccion = prompt(`elige entre las opciones: \n${modeloAutoDisponibles[0].modeloAuto}\n${modeloAutoDisponibles[1].modeloAuto}\n${modeloAutoDisponibles[2].modeloAuto}\n${modeloAutoDisponibles[3].modeloAuto} `);
+const autoSeleccionado = modeloAutoDisponibles.find(autos => autos.modeloAuto === seleccion);
 alert(`Has seleccionado el modelo ${autoSeleccionado.modeloAuto} \nPrecio lista: ${autoSeleccionado.precioLista} \nDesde: ${autoSeleccionado.precioAuto}`)
 
 // Cantidad de cuotas y validacion
@@ -22,7 +24,7 @@ function cuotas() {
     cantidadDeCuotas = validarCantidadDeCuotas(cantidadDeCuotas);
 return cantidadDeCuotas
 }
-
+cantidadDeCuotas = cuotas();
 // // Calcular el valor de la cuota
 const calculoPrecioCuotas = (precio,cantidadDeCuotas)=> {
     if(cantidadDeCuotas <= 1){
@@ -35,4 +37,5 @@ const calculoPrecioCuotas = (precio,cantidadDeCuotas)=> {
     const valorDeCuota = Math.round(precio / cantidadDeCuotas) ;
     return valorDeCuota
 }
-alert(calculoPrecioCuotas(autoSeleccionado.precioAuto, cuotas()))
+valorDeCuota = calculoPrecioCuotas(autoSeleccionado.precioAuto, cantidadDeCuotas)
+confirm(`El valor total de tu compra es: ${autoSeleccionado.precioAuto} \nElegiste pagar ${cantidadDeCuotas} cuotas\nEl valor de cada cuota es de:${valorDeCuota}`)
